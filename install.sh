@@ -10,3 +10,4 @@ else
 	unzip /workspace/.vscode-remote/extensions.zip -d /workspace/.vscode-remote
 	rm -rf /workspace/.vscode-remote/extensions.zip
 fi;
+git config --global user.email $GIT_AUTHOR_EMAIL
